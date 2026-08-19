@@ -40,9 +40,9 @@ const interests = [
     copy: "Not AI for the demo. AI that gives people time back and makes a real workflow noticeably better.",
   },
   {
-    icon: "↗",
-    title: "Entrepreneurship",
-    copy: "Turning observed problems into useful, sellable systems—starting with the work people already do every day.",
+    icon: "↻",
+    title: "Automation & efficiency",
+    copy: "Finding the repetitive friction in a workflow, then designing a simpler system that gives people time and focus back.",
   },
   {
     icon: "◎",
