@@ -895,6 +895,15 @@ footer .brand-mark {
     padding-top: 80px;
   }
 
+  .hero h1 {
+    font-size: clamp(54px, 10vw, 82px);
+  }
+
+  .section-heading h2,
+  .about-statement h2 {
+    font-size: clamp(48px, 8.5vw, 70px);
+  }
+
   .hero-playground {
     justify-self: center;
     width: min(78vw, 470px);
@@ -978,14 +987,19 @@ footer .brand-mark {
   .project-card h3 { margin-top: 70px; }
 
   .interest-row {
-    grid-template-columns: 40px 1fr;
+    grid-template-columns: 40px 48px 1fr;
     gap: 15px;
   }
 
-  .interest-icon { display: none; }
+  .interest-icon {
+    display: grid;
+    width: 42px;
+    height: 42px;
+    font-size: 19px;
+  }
 
-  .interest-row h3,
-  .interest-row p { grid-column: 2; }
+  .interest-row h3 { grid-column: 3; }
+  .interest-row p { grid-column: 3; }
 
   .now-card {
     padding: 28px;
@@ -1017,3 +1031,4 @@ footer .brand-mark {
     transition-duration: 0.01ms !important;
   }
 }
+
