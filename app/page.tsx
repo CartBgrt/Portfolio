@@ -40,7 +40,7 @@ const interests = [
     copy: "Not AI for the demo. AI that gives people time back and makes a real workflow noticeably better.",
   },
   {
-    icon: "↻",
+    icon: "\u21BB\uFE0E",
     title: "Automation & efficiency",
     copy: "Finding the repetitive friction in a workflow, then designing a simpler system that gives people time and focus back.",
   },
@@ -77,7 +77,7 @@ export default function Home() {
         </nav>
 
         <a className="nav-cta" href="mailto:carter@illumin8chiro.com">
-          Let&apos;s talk <span aria-hidden="true">↗</span>
+          Let&apos;s talk <span aria-hidden="true">{"\u2197\uFE0E"}</span>
         </a>
 
         <details className="mobile-menu">
@@ -87,7 +87,7 @@ export default function Home() {
             <a href="#about">About</a>
             <a href="#interests">Interests</a>
             <a href="#now">Now</a>
-            <a href="mailto:carter@illumin8chiro.com">Let&apos;s talk ↗</a>
+            <a href="mailto:carter@illumin8chiro.com">Let&apos;s talk {"\u2197\uFE0E"}</a>
           </nav>
         </details>
       </header>
@@ -107,10 +107,10 @@ export default function Home() {
             </p>
             <div className="hero-actions">
               <a className="button button-dark" href="#work">
-                Explore my work <span aria-hidden="true">↓</span>
+                Explore my work <span aria-hidden="true">{"\u2193\uFE0E"}</span>
               </a>
               <a className="text-link" href="#about">
-                A little about me <span aria-hidden="true">→</span>
+                A little about me <span aria-hidden="true">{"\u2192\uFE0E"}</span>
               </a>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Home() {
               <article className={`project-card ${project.accent}`} key={project.number}>
                 <div className="project-topline">
                   <span>{project.number}</span>
-                  <span aria-hidden="true">↗</span>
+                  <span aria-hidden="true">{"\u2197\uFE0E"}</span>
                 </div>
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
@@ -271,7 +271,7 @@ export default function Home() {
           <p className="section-kicker">Let&apos;s make something useful</p>
           <h2>Have a messy problem worth solving?</h2>
           <a href="mailto:carter@illumin8chiro.com">
-            Start a conversation <span aria-hidden="true">↗</span>
+            Start a conversation <span aria-hidden="true">{"\u2197\uFE0E"}</span>
           </a>
           <p className="contact-note">
             Albuquerque-based · Open to smart ideas, good people, and ambitious
@@ -286,8 +286,9 @@ export default function Home() {
           <span className="brand-name">Carter Bogart</span>
         </a>
         <p>Built with curiosity. Ready to personalize.</p>
-        <a href="#home">Back to top ↑</a>
+        <a href="#home">Back to top {"\u2191\uFE0E"}</a>
       </footer>
     </>
   );
 }
+
